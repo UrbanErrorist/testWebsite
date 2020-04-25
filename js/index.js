@@ -440,6 +440,8 @@ function leaveButton(classlink) {
 	
 		  
 		  }
+
+		  
 		  if ($(this).parent().hasClass('contact_link')){
 		  var nav=$(".navigation");
 		nav.removeClass();
@@ -477,6 +479,19 @@ function leaveButton(classlink) {
 		  
 		  
 		  }
+
+
+
+		  if ($(this).parent().hasClass('blog_link')){
+		  var nav=$(".navigation");
+		nav.removeClass("blog");
+		
+
+		  
+		  
+		  }
+
+
 		  if ($(this).parent().hasClass('contact_link')){
 		  var nav=$(".navigation");
 		nav.removeClass("contact");
